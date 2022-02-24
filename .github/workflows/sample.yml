@@ -12,3 +12,10 @@ jobs:
     steps:
       - name: execute echo command
         run: echo "Hello World!"
+  print-where-cdk:
+    runs-on: ubuntu-latest
+    steps:
+      - name: where cdk 
+        run: echo `which cdk`
+      - name: hello world2
+        run: echo "hello hello world"
